@@ -1,0 +1,16 @@
+{
+  "name": "chrome-extentions-deepl",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/matsu0228/chrome-extentions-deepl.git",
+  "author": "mtskhs <m.hisa3153@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "remove": "if [ -d './dist' ]; then rm -r ./dist; fi",
+    "build": "yarn run remove && tsc && \\cp -rf public/* dist/ "
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.127",
+    "@types/node": "^14.14.14"
+  }
+}

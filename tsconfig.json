@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "lib": ["dom", "esnext"],
+    "module": "commonjs",
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "outDir": "dist",
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2017",
+    "types": ["node", "chrome"],
+    "baseUrl": "src",
+    "allowJs": true
+  },
+  "compileOnSave": true,
+  "include": ["src"],
+  "exclude": ["node_modules", "**/__tests__"]
+}
